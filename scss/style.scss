@@ -1,0 +1,162 @@
+$dark-overlay: rgba(0,0,0,0.1);
+
+body{
+	transition: all 1s;
+}
+
+#nevigation{
+	.navbar{
+		background: #FFFFFF;
+
+		}
+
+	a{
+		font-family: Agency FB;
+		color: #000;
+		margin-left: 15px;
+		font-weight: bold;
+		font-size: 36px;
+	}
+}
+
+#body-part{
+	background: url('../img/background.png');
+	background-size: cover;
+	min-height: 520px;
+
+	.overlay{
+		background: url('../img/overlay.png');
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		min-height: 520px;
+	}
+
+	h1{
+		font-weight: bold;
+		font-size: 60px;
+	}
+
+	p{
+		font-size: 25px;
+	}
+
+	a{
+		padding: 7px 45px 7px 45px;
+		background: #fff;
+		font-size: 30px;
+		color: #000;
+		border-radius: 18px;
+	}
+	a:hover{
+		text-decoration: none;
+	}
+}
+
+#product-page{
+	h2{
+		font-size: 30px;
+
+	}
+	p{
+		font-size: 20px;
+	}
+	.col-md-4{
+		width: 350px;
+		margin: 0 auto;
+	}
+}
+
+#about-page{
+	background: #E5E5E5;
+
+	p{
+		font-size: 20px;
+	}
+}
+
+#testomonial{
+	.slick-prev::before,
+	.slick-next::before {
+		background: #000;
+		color: #fff;
+		padding: 2px;
+		padding-bottom: 4px;
+	}
+
+	img{
+		float: left;
+		width: 140px;
+		height: 140px;
+	}
+	p{
+		margin-left: 150px;
+		font-size: 18px;
+
+	}
+	h5{
+		margin-left: 126px;
+		font-size: 28px;
+	}
+}
+
+#gallery{
+	background: #E5E5E5;
+
+	.button{
+		a{
+		padding: 6px 30px 8px 30px;
+		background: #fff;
+		font-size: 30px;
+		margin-left: 20px;
+		color: #000;
+		border-radius: 18px;
+	}
+		a:hover{
+			text-decoration: none;
+		}
+	}
+
+	img{
+		height: 100%;
+		width: 100%;
+	}
+}
+
+#contact{
+	.quick-links{
+		a{
+			color: #000;
+			font-size: 18px;
+		}
+	}
+	p{
+		font-size: 18px;
+	}
+	a{
+		color: #000;
+	}
+	.social-link a:hover{
+		color: red;
+	}
+}
+
+
+@media(max-width: 650px){
+	#testomonial{
+
+		img{
+		float: none;
+		width: 120px;
+		height: 120px;
+	}
+	p{
+		margin-left: 0px;
+	}
+	h5{
+		margin-left: -25px;
+	}
+
+	}
+}
